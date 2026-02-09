@@ -1,6 +1,6 @@
-## 🏅 Tableau des Médailles - JO
+# 🏅 Tableau des Médailles - JO
 Ce projet est une application web légère en PHP permettant d'afficher en temps réel le classement des médailles des Jeux Olympiques à partir d'un fichier source CSV.
-# 🚀 Fonctionnalités
+## 🚀 Fonctionnalités
 Lecture Dynamique : Les données sont extraites directement du fichier Resultats.csv.
 
 Mise en Valeur : Une fonction spécifique permet de surligner automatiquement la ligne de la France dans le tableau.
@@ -10,3 +10,16 @@ Nettoyage de Données : Utilisation d'un script "Dos De Chameau" (ddc.php) pour 
 Auto-actualisation : La page se recharge automatiquement toutes les 10 minutes pour garantir la fraîcheur des données.
 
 Design Responsive : Adapté aux mobiles et tablettes.
+
+## 📁 Structure du Projet
+'''
+├── index.php              # Fichier principal (logique d'affichage et HTML)
+├── datas/
+│   └── Resultats.csv      # Source de données (Rang, Pays, Or, Argent, Bronze, Total)
+├── includes/
+│   ├── ddc.php            # Formate les noms de pays pour les icônes
+│   └── singPluriel.php    # Gère l'accord singulier/pluriel des points
+├── css/
+│   ├── style.css          # Feuilles de style
+│   └── images/            # Dossier contenant les drapeaux et visuels
+'''
