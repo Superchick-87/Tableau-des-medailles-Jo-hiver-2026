@@ -11,15 +11,29 @@ Auto-actualisation : La page se recharge automatiquement toutes les 10 minutes p
 
 Design Responsive : Adapté aux mobiles et tablettes.
 
-## 📁 Structure du Projet
-'''
+## 📂 Structure du projet
+
+```text
+.
 ├── index.php              # Fichier principal (logique d'affichage et HTML)
 ├── datas/
 │   └── Resultats.csv      # Source de données (Rang, Pays, Or, Argent, Bronze, Total)
 ├── includes/
-│   ├── ddc.php            # Formate les noms de pays pour les icônes
+│   ├── ddc.php            # Formate les noms de pays pour les icônes (CamelCase)
 │   └── singPluriel.php    # Gère l'accord singulier/pluriel des points
 ├── css/
-│   ├── style.css          # Feuilles de style
+│   ├── style.css          # Feuilles de style (design et tableau)
 │   └── images/            # Dossier contenant les drapeaux et visuels
-'''
+```
+## 🛠️ Installation
+1. Clonez le dépôt sur votre serveur local (WAMP, MAMP, XAMPP) ou votre serveur web :
+git clone https://github.com/Superchick-87/Tableau-des-medailles-Jo-hiver-2026.git
+
+2. Assurez-vous que PHP est installé (version 7.0 ou supérieure recommandée).
+
+3. Placez vos données à jour dans datas/Resultats.csv en respectant le format suivant :
+Rang,Nations,Or,Argent,Bronze,Total
+1,Norvège,3,1,2,6
+
+## 📝 Licence
+Ce projet est destiné à un usage informatif.
