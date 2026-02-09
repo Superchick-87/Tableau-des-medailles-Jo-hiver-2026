@@ -92,7 +92,6 @@
 	</table>
 	<footer></footer>
 	</section>';
-	// include (dirname(__FILE__).'/pdf_5cols186_ClassResult.php');
 	?>
 </body>
 
