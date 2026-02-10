@@ -70,7 +70,7 @@ $csvr = read($csvPath, $separateur);
 <body style="background-color: white; margin:0; padding:0;">
 
 	<section class="margincenter">
-		<img class="visu" src="css/images/visu.png" alt="JO Visuel">
+		<!-- <img class="visu" src="css/images/visu.png" alt="JO Visuel"> -->
 		<h2>Le tableau des médailles</h2>
 		<table class="table">
 			<thead>
